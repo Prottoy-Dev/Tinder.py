@@ -15,16 +15,9 @@ The primary goal of this project is to automate interactions on the Tinder datin
 ## Code Breakdown:
 
 - Initialization: The Tinderbot class has an initialization method (constructor) that encapsulates the setup of the web browser, in this case, Microsoft Edge. The encapsulation ensures that the browser setup is contained within the class.
-
-- Login Method (Abstraction):
-
-The login method encapsulates the login process. It abstracts the details of navigating to Tinder, clicking login buttons, and handling Facebook login. This abstraction makes the code more readable and manageable.
-- Like Method (Abstraction):
-
-The like method abstracts the action of liking profiles on Tinder. It attempts to perform this action and abstracts the handling of any errors or pop-ups that might occur during the process.
-- Close Pop-Up Method (Abstraction):
-
-The close_pop_up method abstracts the process of handling various pop-ups that might appear during the automation. It encapsulates the logic for dealing with location access, notifications, and other pop-ups.
+- Login Method (Abstraction): The login method encapsulates the login process. It abstracts the details of navigating to Tinder, clicking login buttons, and handling Facebook login. This abstraction makes the code more readable and manageable.
+- Like Method (Abstraction): The like method abstracts the action of liking profiles on Tinder. It attempts to perform this action and abstracts the handling of any errors or pop-ups that might occur during the process.
+- Close Pop-Up Method (Abstraction): The close_pop_up method abstracts the process of handling various pop-ups that might appear during the automation. It encapsulates the logic for dealing with location access, notifications, and other pop-ups.
 ## Use Case:
 The Tinderbot class can be instantiated and used to automate the process of swiping right and liking profiles on Tinder. The OOP approach simplifies the usage of the bot, making it easy for developers to interact with the Tinder platform programmatically.
 
